@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/loading_dialog_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:minWidth="200dp">
+
+    <!-- Progress Bar -->
+    <ProgressBar
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:indeterminateTint="@color/bright_blue"
+        style="?android:attr/progressBarStyle" />
+
+    <!-- Loading Message -->
+    <TextView
+        android:id="@+id/tvLoadingMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Please wait..."
+        android:textColor="@color/text_primary"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center" />
+
+    <!-- Sub Message -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="This may take a few seconds"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif"
+        android:gravity="center" />
+</LinearLayout>

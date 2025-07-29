@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Main application theme -->
+    <style name="Theme.UhaUltimateHomeOfAcademia" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- App brand colors -->
+        <item name="colorPrimary">@color/dark_grey</item>
+        <item name="colorPrimaryContainer">@color/medium_grey</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/light_blue</item>
+        <item name="colorSecondaryContainer">@color/medium_blue</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- System bars -->
+        <item name="android:statusBarColor">?attr/colorPrimaryContainer</item>
+        <item name="android:navigationBarColor">?attr/colorPrimaryContainer</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Required for Material Components -->
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Material3</item>
+        <item name="android:theme">@style/ThemeOverlay.Material3</item>
+
+        <!-- MaterialButton styling -->
+        <item name="materialButtonStyle">@style/Widget.UHA.Button</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.UHA.Button.Outlined</item>
+
+        <!-- Text styles -->
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.UHA.TitleMedium</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.UHA.BodyMedium</item>
+    </style>
+
+    <!-- Splash screen theme -->
+    <style name="Theme.UHA.Splash" parent="Theme.UhaUltimateHomeOfAcademia">
+        <item name="android:windowBackground">@drawable/splash_gradient</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <!-- UHA Button styles -->
+    <style name="Widget.UHA.Button" parent="Widget.Material3.Button">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="backgroundTint">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Widget.UHA.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="strokeColor">?attr/colorPrimary</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <!-- Text appearances -->
+    <style name="TextAppearance.UHA.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:fontFamily">@font/kalam_bold</item>
+    </style>
+
+    <style name="TextAppearance.UHA.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:fontFamily">@font/kalam_light</item>
+    </style>
+
+</resources>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="dark_grey">#2D3130</color>
+    <color name="medium_grey">#82929F</color>
+    <color name="light_grey">#B8CAD8</color>
+    <color name="light_blue">#2088FF</color>
+    <color name="medium_blue">#7958FF</color>
+    <color name="purple_blue">#1F89FF</color>
+    <color name="bright_blue">#0038FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Gradient colors matching your design -->
+    <color name="gradient_cream">#F5F3F0</color>
+    <color name="gradient_light_blue">#87CEEB</color>
+    <color name="gradient_blue">#1E90FF</color>
+    <color name="gradient_dark_blue">#0066CC</color>
+
+
+
+    <color name="light_blue_bg">#E3F2FD</color>
+    <color name="light_green_bg">#E8F5E8</color>
+    <color name="light_purple_bg">#F3E5F5</color>
+    <color name="primary_blue">#2196F3</color>
+    <color name="primary_purple">#9C27B0</color>
+    <color name="success_green">#4CAF50</color>
+    <color name="accent_orange">#FF9800</color>
+    <color name="live_red">#F44336</color>
+    <color name="screen_black">#212121</color>
+    <color name="light_orange">#FFB74D</color>
+
+    <color name="card_background">#F8FAFC</color>
+    <color name="glow_blue">#4FACFE</color>
+    <color name="accent_purple">#764BA2</color>
+    <color name="logo_background">#FFFFFF</color>
+    <color name="title_gradient_start">#2D3748</color>
+    <color name="text_shadow">#00000020</color>
+    <color name="tagline_color">#4A5568</color>
+    <color name="loading_accent">#667EEA</color>
+    <color name="loading_text">#718096</color>
+    <color name="branding_text">#A0AEC0</color>
+    <color name="brand_accent">#764BA2</color>
+    <color name="version_text">#CBD5E0</color>
+    <color name="divider_color">#667eea</color>
+    <color name="branding_text_inline">#6B7280</color>
+
+    <!-- Education Platform Colors -->
+    <color name="education_primary">#3F51B5</color>
+    <color name="education_secondary">#FF5722</color>
+    <color name="education_neutral">#607D8B</color>
+    <color name="education_text">#212121</color>
+
+    <!-- Sunshine/Orange themed colors -->
+    <color name="sunshine_orange">#FF9500</color>
+    <color name="warm_amber">#FFB347</color>
+    <color name="coral_pink">#FF7F7F</color>
+    <color name="golden_yellow">#FFD700</color>
+    <color name="peach_orange">#FFCBA4</color>
+    <color name="sunset_red">#FF6B6B</color>
+    <color name="tangerine">#FF8C69</color>
+    <color name="apricot">#FBCEB1</color>
+    <color name="mandarin">#FF8243</color>
+    <color name="papaya">#FFEFD5</color>
+    <color name="cantaloupe">#FFB347</color>
+    <color name="burnt_orange">#CC5500</color>
+
+    <!-- Gradient colors -->
+    <color name="gradient_start">#FF9500</color>
+    <color name="gradient_center">#FFB347</color>
+    <color name="gradient_end">#FFCBA4</color>
+
+    <!--for quiz-->
+    <color name="background_color">#F5F5F5</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="card_stroke_color">#E0E0E0</color>
+
+
+    <!-- Feature Item Colors -->
+    <color name="feature_quizzes">#FFD700</color> <!-- Golden Yellow -->
+    <color name="feature_notes">#FFA500</color>   <!-- Orange -->
+    <color name="feature_mind_maps">#FFC107</color> <!-- Amber -->
+    <color name="feature_doubt_solution">#FF7F50</color> <!-- Coral -->
+    <color name="feature_calendar">#FFB347</color> <!-- Peach -->
+    <color name="feature_reminders">#FF6347</color> <!-- Red -->
+    <color name="feature_live_chat">#FF9933</color> <!-- Tangerine -->
+    <color name="feature_leaderboard">#FBCEB1</color> <!-- Apricot -->
+    <color name="feature_resources">#FF8C00</color> <!-- Mandarin -->
+    <color name="feature_aptitude">#FFEFD5</color> <!-- Papaya -->
+    <color name="feature_ai_chatbot">#FFDAB9</color> <!-- Cantaloupe -->
+    <color name="feature_career_tools">#CC5500</color> <!-- Burnt Orange -->
+
+    <color name="text_black">#000000</color>
+    <color name="dark_navy">#1B263B</color>
+    <!-- Main Feature Card Colors -->
+    <color name="study_gradient_start">#667eea</color>
+    <color name="study_gradient_end">#764ba2</color>
+
+    <color name="ai_gradient_start">#f093fb</color>
+    <color name="ai_gradient_end">#f5576c</color>
+
+    <color name="teacher_gradient_start">#4facfe</color>
+    <color name="teacher_gradient_end">#00f2fe</color>
+
+    <color name="progress_gradient_start">#43e97b</color>
+    <color name="progress_gradient_end">#38f9d7</color>
+
+    <!-- Feature Grid Colors -->
+    <color name="quiz_gradient_start">#FF6B6B</color>
+    <color name="quiz_gradient_end">#FF8E8E</color>
+
+    <color name="notes_gradient_start">#4ECDC4</color>
+    <color name="notes_gradient_end">#71EAE0</color>
+
+    <color name="mindmap_gradient_start">#45B7D1</color>
+    <color name="mindmap_gradient_end">#6BC5E8</color>
+
+    <color name="doubt_gradient_start">#96CEB4</color>
+    <color name="doubt_gradient_end">#B8E6C6</color>
+
+    <color name="calendar_gradient_start">#FFECD2</color>
+    <color name="calendar_gradient_end">#FCB69F</color>
+
+    <color name="reminder_gradient_start">#A8EDEA</color>
+    <color name="reminder_gradient_end">#BDF4F1</color>
+
+    <color name="chat_gradient_start">#FF9A9E</color>
+    <color name="chat_gradient_end">#FAD0C4</color>
+
+    <color name="leaderboard_gradient_start">#FDA085</color>
+    <color name="leaderboard_gradient_end">#F6D365</color>
+
+    <color name="resources_gradient_start">#D299C2</color>
+    <color name="resources_gradient_end">#E8B4E0</color>
+
+    <color name="aptitude_gradient_start">#89F7FE</color>
+    <color name="aptitude_gradient_end">#66A6FF</color>
+
+    <color name="ai_compete_gradient_start">#C471F5</color>
+    <color name="ai_compete_gradient_end">#FA71CD</color>
+
+    <color name="career_gradient_start">#FAA916</color>
+    <color name="career_gradient_end">#FFD93D</color>
+
+    <!-- Banner and Indicator Colors -->
+    <color name="banner_border">#E0E0E0</color>
+    <color name="indicator_active">#2196F3</color>
+    <color name="indicator_inactive">#BDBDBD</color>
+
+    <!-- Background Colors -->
+    <color name="light_yellow_bg">#FFFEF0</color>
+
+    <!-- Primary Colors -->
+    <color name="ai_blue">#2563EB</color>
+
+    <!-- Text Colors -->
+    <color name="text_light">#9CA3AF</color>
+
+    <!-- Component Colors -->
+    <color name="chip_selected">#E0E7FF</color>
+    <color name="chip_unselected">#F3F4F6</color>
+    <color name="slider_inactive">#D1D5DB</color>
+
+    <!-- Status Colors -->
+    <color name="warning_orange">#F59E0B</color>
+    <color name="error_red">#EF4444</color>
+
+    <!-- Card Shadows -->
+    <color name="card_shadow">#1A000000</color>
+
+    <!-- Light Theme Form Colors -->
+    <color name="light_background">#F8F9FA</color>
+    <color name="light_text">#E8E8E8</color>
+
+    <!-- Primary Colors -->
+    <color name="primary_light">#3498DB</color>
+    <color name="primary_dark">#2980B9</color>
+    <color name="accent_blue">#5DADE2</color>
+
+    <!-- Status Colors -->
+    <color name="success_color">#27AE60</color>
+    <color name="error_color">#E74C3C</color>
+    <color name="warning_color">#F39C12</color>
+    <color name="info_color">#3498DB</color>
+
+    <!-- Input Colors -->
+    <color name="input_background">#F8F9FA</color>
+    <color name="input_border">#E5E5E5</color>
+    <color name="input_focused">#3498DB</color>
+
+    <!-- AI Form Colors -->
+    <color name="ai_accent">#AF7AC5</color>
+    <color name="ai_light">#E8DAEF</color>
+
+    <!-- Teacher Hotline Colors -->
+    <color name="teacher_accent">#F39C12</color>
+    <color name="teacher_light">#FDEBD0</color>
+
+    <!-- Button Colors -->
+    <color name="button_pressed">#34495E</color>
+    <color name="button_disabled">#BDC3C7</color>
+
+    <color name="app_background">#F8F9FA</color>
+    <color name="main_color">#3498DB</color>
+    <color name="primary_color">#3498DB</color>
+    <color name="secondary_color">#E67E22</color>
+
+
+    <color name="text_hint">#BDBDBD</color>
+
+    <!-- Background Colors -->
+    <color name="background_light">#FAFAFA</color>
+
+    <!-- Additional UI Colors -->
+    <color name="button_primary">#2196F3</color>
+    <color name="button_secondary">#E3F2FD</color>
+
+    <color name="dark_blue">#0038FF</color>
+    <color name="sky_blue">#87CEEB</color>
+    <color name="dodger_blue">#1E90FF</color>
+
+    <!-- Background Colors -->
+    <color name="background_primary">#F8FAFC</color>
+    <color name="dark_bg">#2D3130</color>
+    <color name="gray_bg">#82929F</color>
+    <color name="light_gray">#B8CAD8</color>
+    <color name="cream">#F5F3F0</color>
+
+    <!-- Text Colors -->
+    <color name="text_tertiary">#718096</color>
+    <color name="text_dark">#2D3748</color>
+
+    <!-- Card Background Colors -->
+    <color name="career_card_bg">#E3F2FD</color>
+    <color name="history_card_bg">#F3E5F5</color>
+    <color name="festival_card_bg">#E8F5E8</color>
+    <color name="fact_card_bg">#FFF8E1</color>
+    <color name="meme_card_bg">#F3E5F5</color>
+    <color name="quote_card_bg">#E8F5E8</color>
+
+    <!-- Accent Colors -->
+    <color name="accent_red">#F44336</color>
+    <color name="accent_green">#4CAF50</color>
+    <color name="accent_indigo">#3F51B5</color>
+    <color name="accent_teal">#607D8B</color>
+
+    <!-- Orange Palette -->
+    <color name="orange_primary">#FF9500</color>
+    <color name="orange_light">#FFB347</color>
+    <color name="orange_coral">#FF7F7F</color>
+    <color name="orange_gold">#FFD700</color>
+    <color name="orange_peach">#FFCBA4</color>
+    <color name="orange_salmon">#FF6B6B</color>
+    <color name="orange_dark_salmon">#FF8C69</color>
+    <color name="orange_wheat">#FBCEB1</color>
+    <color name="orange_burnt">#FF8243</color>
+    <color name="orange_papaya">#FFEFD5</color>
+    <color name="orange_sandy">#FFB347</color>
+    <color name="orange_chocolate">#CC5500</color>
+
+
+    <color name="gradient_blue_start">#667EEA</color>
+    <color name="gradient_blue_end">#667eea</color>
+
+    <!-- Special Colors -->
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent">#00000020</color>
+    <color name="button_bg_light">#CBD5E0</color>
+    <color name="heart_red">#FF6B6B</color>
+    <color name="category_science">#4CAF50</color>
+    <color name="category_biology">#FF9800</color>
+    <color name="quote_accent">#7958FF</color>
+    <color name="image_placeholder_bg">#F0F0F0</color>
+
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FF9800</color>
+    <color name="error">#F44336</color>
+    <color name="info">#2196F3</color>
+
+</resources>

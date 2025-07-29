@@ -1,0 +1,456 @@
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:paddingBottom="100dp">
+
+        <!-- Enhanced Greeting Section -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="12dp"
+            app:cardBackgroundColor="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="24dp"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_greeting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hello, User"
+                        android:textSize="28sp"
+                        android:fontFamily="sans-serif-medium"
+                        android:textColor="@color/dark_navy"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Keep learning!"
+                        android:textSize="18sp"
+                        android:textColor="@color/bright_blue"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginTop="4dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Stay focused and never give up."
+                        android:textSize="14sp"
+                        android:textColor="@color/accent_orange"
+                        android:fontFamily="sans-serif-light"
+                        android:layout_marginTop="2dp"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_education_star"
+                    android:background="@drawable/circle_gradient_background"
+                    android:padding="12dp"
+                    app:tint="@color/white"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Enhanced Main Features Cards -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quick Access"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_navy"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginBottom="16dp"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_marginBottom="32dp">
+
+
+            <!-- Enhanced Progress Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_progress"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp"
+                app:cardBackgroundColor="@color/progress_gradient_start"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradient_progress"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/iv_progress_icon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/ic_registration"
+                        app:tint="@color/white"
+                        android:background="@drawable/circle_white_bg"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/iv_progress_icon"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"
+                        android:text="Partner Registration"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:textAlignment="center" />
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Enhanced Study Material Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_study_material"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp"
+                app:cardBackgroundColor="@color/study_gradient_start"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradient_study_material"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/iv_study_icon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/ic_study_material"
+                        app:tint="@color/white"
+                        android:background="@drawable/circle_white_bg"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/iv_study_icon"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="12dp"
+                        android:text="Student Desk"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"/>
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Enhanced Learn With AI Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_learn_ai"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp"
+                app:cardBackgroundColor="@color/ai_gradient_start"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradient_ai_learning"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/iv_ai_icon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/ic_teacher"
+                        app:tint="@color/white"
+                        android:background="@drawable/circle_white_bg"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/iv_ai_icon"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="12dp"
+                        android:text="AI Tutor"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"/>
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Enhanced Teacher Hotline Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_teacher_hotline"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp"
+                app:cardBackgroundColor="@color/teacher_gradient_start"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradient_teacher_hotline"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/iv_teacher_icon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/ic_teacher_hotline"
+                        app:tint="@color/white"
+                        android:background="@drawable/circle_white_bg"
+                        android:padding="8dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/iv_teacher_icon"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="12dp"
+                        android:text="Teacher Hotline"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif"/>
+                </RelativeLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </GridLayout>
+
+        <!-- Enhanced Banner Slider -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="12dp"
+            app:strokeWidth="2dp"
+            app:strokeColor="@color/banner_border">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/bannerViewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/banner_rounded_background"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Enhanced Indicators for banner -->
+        <LinearLayout
+            android:id="@+id/bannerIndicators"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="32dp"
+            android:padding="8dp"
+            android:background="@drawable/indicator_background"/>
+
+        <!-- Enhanced Features Section -->
+<!--        <com.google.android.material.card.MaterialCardView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="32dp"-->
+<!--            app:cardCornerRadius="18dp"-->
+<!--            app:cardElevation="4dp"-->
+<!--            app:cardBackgroundColor="@color/white"-->
+<!--            app:strokeWidth="0.5dp"-->
+<!--            app:strokeColor="#E0E0E0">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                android:padding="24dp">-->
+
+<!--                &lt;!&ndash; Simple Header &ndash;&gt;-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:gravity="center_vertical"-->
+<!--                    android:layout_marginBottom="24dp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:orientation="vertical">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="Learning Tools"-->
+<!--                            android:textSize="20sp"-->
+<!--                            android:textStyle="bold"-->
+<!--                            android:textColor="@color/dark_navy"-->
+<!--                            android:fontFamily="sans-serif-medium"/>-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="Choose your study companion"-->
+<!--                            android:textSize="13sp"-->
+<!--                            android:textColor="@color/bright_blue"-->
+<!--                            android:fontFamily="sans-serif"-->
+<!--                            android:layout_marginTop="2dp"-->
+<!--                            android:alpha="0.7"/>-->
+<!--                    </LinearLayout>-->
+
+<!--                    &lt;!&ndash; Simple Icon &ndash;&gt;-->
+<!--                    <ImageView-->
+<!--                        android:layout_width="32dp"-->
+<!--                        android:layout_height="32dp"-->
+<!--                        android:src="@drawable/ic_explore"-->
+<!--                        android:background="@drawable/clean_icon_circle"-->
+<!--                        android:padding="8dp"-->
+<!--                        app:tint="@color/bright_blue"/>-->
+<!--                </LinearLayout>-->
+
+<!--                &lt;!&ndash; Clean Grid Header &ndash;&gt;-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:gravity="center_vertical"-->
+<!--                    android:layout_marginBottom="20dp"-->
+<!--                    android:background="@drawable/clean_header_background"-->
+<!--                    android:padding="12dp">-->
+
+<!--                    <View-->
+<!--                        android:layout_width="3dp"-->
+<!--                        android:layout_height="16dp"-->
+<!--                        android:background="@color/bright_blue"-->
+<!--                        android:layout_marginEnd="10dp"/>-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:text="Available Features"-->
+<!--                        android:textSize="14sp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textColor="@color/dark_navy"-->
+<!--                        android:fontFamily="sans-serif-medium"/>-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="8"-->
+<!--                        android:textSize="11sp"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:background="@drawable/clean_count_badge"-->
+<!--                        android:paddingHorizontal="6dp"-->
+<!--                        android:paddingVertical="2dp"/>-->
+<!--                </LinearLayout>-->
+
+<!--                &lt;!&ndash; RecyclerView with Better Spacing &ndash;&gt;-->
+<!--                <androidx.recyclerview.widget.RecyclerView-->
+<!--                    android:id="@+id/rv_home_items"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:paddingStart="8dp"-->
+<!--                    android:paddingEnd="8dp"-->
+<!--                    android:paddingTop="8dp"-->
+<!--                    android:paddingBottom="16dp"-->
+<!--                    android:nestedScrollingEnabled="false"-->
+<!--                    android:overScrollMode="never"-->
+<!--                    android:clipToPadding="false"-->
+<!--                    android:clipChildren="false"/>-->
+
+<!--                &lt;!&ndash; Clean Footer &ndash;&gt;-->
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:gravity="center"-->
+<!--                    android:layout_marginTop="16dp"-->
+<!--                    android:background="@drawable/clean_footer_background"-->
+<!--                    android:padding="10dp">-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="14dp"-->
+<!--                        android:layout_height="14dp"-->
+<!--                        android:src="@drawable/ic_sparkle"-->
+<!--                        app:tint="@color/accent_orange"-->
+<!--                        android:layout_marginEnd="6dp"/>-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="More tools coming soon"-->
+<!--                        android:textSize="11sp"-->
+<!--                        android:textColor="@color/accent_orange"-->
+<!--                        android:fontFamily="sans-serif"-->
+<!--                        android:textStyle="italic"/>-->
+<!--                </LinearLayout>-->
+<!--            </LinearLayout>-->
+<!--        </com.google.android.material.card.MaterialCardView>-->
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

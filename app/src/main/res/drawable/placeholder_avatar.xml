@@ -1,0 +1,19 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Circle background -->
+    <path
+        android:pathData="M50,50 m-50,0 a50,50 0,1 1,100 0 a50,50 0,1 1,-100 0"
+        android:fillColor="@color/accent_green"/>
+
+    <!-- Person icon -->
+    <path
+        android:pathData="M50,30 m-12,0 a12,12 0,1 1,24 0 a12,12 0,1 1,-24 0"
+        android:fillColor="@color/white"/>
+    <path
+        android:pathData="M30,70 Q50,55 70,70 L70,85 L30,85 Z"
+        android:fillColor="@color/white"/>
+</vector>

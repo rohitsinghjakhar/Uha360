@@ -1,0 +1,375 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Uha </string>
+    <string name="app_tagline">Ultimate Home of Academia</string>
+    <string name="default_notification_channel_id">Notification </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="home">Home</string>
+    <string name="resources">Resources</string>
+    <string name="profile">Profile</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_conditions">Terms &amp; Conditions</string>
+    <string name="help_support">Help &amp; Support</string>
+    <string name="connect_with_us">Connect with Us</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="instagram">Instagram</string>
+    <string name="logout">Logout</string>
+
+    <string name="default_web_client_id">176053902228-h1ub190ot7crb3nmos1scqlq1n49e0r6.apps.googleusercontent.com</string>
+
+    <string name="otp_sent_message">OTP sent to +91%s</string>
+    <string name="resend_otp_in_seconds">Resend OTP in %d seconds</string>
+
+    <string name="class_label">Class:</string>
+    <string name="select_class">Select Your Class</string>
+    <string name="close">Close</string>
+
+
+    <string name="skip">Skip</string>
+    <string name="get_started">Get Started</string>
+    <string name="onboarding_image">Feature illustration</string>
+    <string name="youtube">Youtube</string>
+    <string name="linkedn">Linkedin</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="home_item_icon">Feature Icon</string>
+
+
+    <style name="CustomAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorPrimary">@color/education_primary</item>
+        <item name="colorSecondary">@color/education_secondary</item>
+        <item name="android:background">@drawable/dialog_background</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/EducationDialogTitle</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/EducationDialogBody</item>
+        <item name="buttonBarPositiveButtonStyle">@style/EducationPositiveButton</item>
+        <item name="buttonBarNegativeButtonStyle">@style/EducationNegativeButton</item>
+        <item name="buttonBarNeutralButtonStyle">@style/EducationNeutralButton</item>
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+    </style>
+
+    <!-- Education-themed dialog title style -->
+    <style name="EducationDialogTitle" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textColor">@color/education_primary</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <!-- Education-themed dialog body style -->
+    <style name="EducationDialogBody" parent="MaterialAlertDialog.MaterialComponents.Body.Text">
+        <item name="android:textColor">@color/education_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+
+    <!-- Positive button style (e.g., Accept, Continue) -->
+    <style name="EducationPositiveButton" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="backgroundTint">@color/education_primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- Negative button style (e.g., Cancel, Close) -->
+    <style name="EducationNegativeButton" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="backgroundTint">@color/education_secondary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- Neutral button style (e.g., More Info, Later) -->
+    <style name="EducationNeutralButton" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="backgroundTint">@color/education_neutral</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+
+    <style name="CustomDialogTheme" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="dialogCornerRadius">16dp</item>
+    </style>
+
+
+    <!-- Custom Dialog Theme -->
+    <!--    <style name="CustomDialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">-->
+    <!--        <item name="dialogCornerRadius">16dp</item>-->
+    <!--        <item name="android:windowBackground">@drawable/dialog_background</item>-->
+    <!--        <item name="buttonBarPositiveButtonStyle">@style/DialogButtonStyle</item>-->
+    <!--        <item name="materialAlertDialogTitleTextStyle">@style/DialogTitleStyle</item>-->
+    <!--        <item name="materialAlertDialogBodyTextStyle">@style/DialogBodyStyle</item>-->
+    <!--    </style>-->
+
+    <style name="DialogTitleStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/light_blue</item>
+        <item name="android:fontFamily">@font/kalam_light</item>
+    </style>
+
+    <style name="DialogBodyStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/light_purple_bg</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+
+    <style name="DialogButtonStyle">
+        <item name="android:textColor">@color/primary_blue</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <!-- Dialog Titles -->
+    <string name="about_dialog_title">About Our Platform</string>
+    <string name="contact_dialog_title">Contact Our Team</string>
+    <string name="privacy_policy_dialog_title">Privacy Policy</string>
+    <string name="terms_conditions_dialog_title">Terms &amp; Conditions</string>
+    <string name="help_support_dialog_title">Help &amp; Support</string>
+    <string name="logout_confirmation_dialog_title">Confirm Logout</string>
+
+    <!-- Dialog Messages -->
+    <string name="about_message">Welcome to UHA! \n\nWe are committed to providing quality education through innovative digital solutions. Our mission is to make learning accessible to everyone.\n\n Features:\n• Interactive Courses\n• Expert Instructors\n• Progress Tracking\n• Certification Programs\n\nVersion: 1.0.0\nDeveloped with ❤️ by UHA Team</string>
+
+    <string name="contact_message">Get in touch with our education experts! \n\n Email: info@dawnbells.com\n Phone: +91 6362430699\n Address: Dawnbells, 14, 2nd Main Rd, Amarjyothi Layout, Chola Nagar, \n Anandnagar, RT Nagar, Bengaluru, Karnataka India 560032 \n Website: www.uha360.in\n\n Available Mon-Fri 9AM-6PM\n We\'re here to help with your learning journey!</string>
+
+    <string name="privacy_message">Your data privacy is our top priority! \n\n Key Privacy Commitments:\n• Secure data handling\n• End-to-end encryption\n• No sharing of personal information\n• Secure cloud storage\n• Complete data ownership\n\n📋 Data We Collect:\n• Basic profile information\n• Course progress data\n• Usage analytics (anonymized)\n\n You can delete your account and data anytime.</string>
+
+    <string name="terms_message">Terms of Service for our Educational Platform \n\n Service Usage:\n• Use platform responsibly for learning\n• Respect copyright and intellectual property\n• Follow community guidelines\n• Report any technical issues\n\n Important Notes:\n• Platform supplements formal education\n• Certificates may have terms of use\n• Content may be updated periodically\n\n Last updated: 1 June 2025\n Terms subject to updates</string>
+
+    <string name="help_message">Need help with our platform? \n\n🔧 Common Solutions:\n• Login issues → Check credentials or reset password\n• Course access → Check enrollment status\n• Video problems → Check internet connection\n• Payment issues → Contact support\n\n Support Hours: Mon-Fri 10AM-5PM\n Email support: info@dawnbells.com\n For urgent issues, call +91 6362430699</string>
+
+    <string name="logout_message">Are you sure you want to logout? \n\n You will need to login again to:\n• Access your courses\n• View progress\n• Use platform features\n\n Your progress will be saved and available when you return.</string>
+
+    <!-- Dialog Buttons -->
+    <string name="awesome_button">Awesome!</string>
+    <string name="close_button">Close</string>
+    <string name="send_email_button">Send Email</string>
+    <string name="call_now_button">Call Now</string>
+    <string name="read_full_policy_button">Read Full Policy</string>
+    <string name="read_full_terms_button">Read Full Terms</string>
+    <string name="accept_button">I Accept</string>
+    <string name="contact_support_button">Contact Support</string>
+    <string name="faq_button">View FAQ</string>
+    <string name="yes_logout_button">Yes, Logout</string>
+    <string name="cancel_button">Cancel</string>
+
+    <!-- Messages -->
+    <string name="thanks_message">Thank you for choosing our platform!</string>
+    <string name="terms_accepted">Terms accepted. Thank you!</string>
+    <string name="logout_cancelled">Logout cancelled</string>
+    <string name="navigation_error">Navigation error occurred</string>
+    <string name="email_error">Unable to open email app</string>
+    <string name="phone_error">Unable to open phone app</string>
+    <string name="browser_error">Unable to open web browser</string>
+    <string name="opening_social_media">Opening social media…</string>
+    <string name="error_social_link">Couldn\'t open link</string>
+    <string name="support_request">Education Platform Support Request</string>
+    <string name="email_body">Hello Dawn Bells Education Team,\n\nI need assistance with…</string>
+    <string name="send_email">Send Email</string>
+    <string name="logging_out">Logging out…</string>
+    <string name="securing_data">🔐 Securing your learning data…\n⏳ Please wait while we log you out safely.</string>
+    <string name="logout_success">Logged out successfully! Happy learning! 🌟</string>
+    <string name="ok">OK</string>
+
+    <style name="Theme.UHA.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <string name="study_material">Study Material</string>
+    <string name="study_material_for_class">Study Material for %s</string>
+
+    <style name="Theme.UHA" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_light</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent_blue</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:windowBackground">@color/light_background</item>
+    </style>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/bright_blue</item>
+        <item name="colorPrimaryDark">@color/dark_navy</item>
+        <item name="colorAccent">@color/accent_orange</item>
+        <item name="android:colorBackground">@color/app_background</item>
+        <item name="android:windowBackground">@drawable/gradient_background</item>
+    </style>
+
+    <!-- Card Styles -->
+    <style name="CardViewMain">
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">8dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="CardViewFeature" parent="CardViewMain">
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">6dp</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <style name="CardViewBanner" parent="CardViewMain">
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">12dp</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">@color/banner_border</item>
+    </style>
+
+    <!-- Text Styles -->
+    <style name="TextAppearanceGreeting">
+        <item name="android:textColor">@color/dark_navy</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearanceSectionTitle">
+        <item name="android:textColor">@color/dark_navy</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearanceFeatureTitle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextAppearanceSubtitle">
+        <item name="android:textColor">@color/bright_blue</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextAppearanceDescription">
+        <item name="android:textColor">@color/accent_orange</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="ButtonPrimary">
+        <item name="android:background">@drawable/button_gradient</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:elevation">8dp</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+    <style name="FloatingActionButtonCustom">
+        <item name="android:background">@drawable/floating_button_background</item>
+        <item name="android:elevation">12dp</item>
+    </style>
+
+    <!-- Animation Styles -->
+    <style name="AnimationCard">
+        <item name="android:windowEnterAnimation">@anim/slide_in_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_down</item>
+    </style>
+
+    <!-- RecyclerView Styles -->
+    <style name="RecyclerViewFeatures">
+        <item name="android:background">@drawable/features_grid_background</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:overScrollMode">never</item>
+    </style>
+
+    <!-- Layout Styles -->
+    <style name="LayoutSection">
+        <item name="android:layout_marginBottom">24dp</item>
+    </style>
+
+    <style name="LayoutCard">
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <!-- Additional useful styles -->
+    <style name="GreetingCard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">12dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="FeatureCard">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">8dp</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="BannerCard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">12dp</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">@color/banner_border</item>
+    </style>
+
+</resources>
+

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "176053902228",
+    "firebase_url": "https://uha-project-dawnbells-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "uha-project-dawnbells",
+    "storage_bucket": "uha-project-dawnbells.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176053902228:android:9346af352ad23e35158d81",
+        "android_client_info": {
+          "package_name": "com.dawnbellsuha.uha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176053902228-0nmq16jshr0ob4jpj0baeebqfud827c5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dawnbellsuha.uha",
+            "certificate_hash": "0b79229ca330ee31e65e599a916b782ffe9b0bbe"
+          }
+        },
+        {
+          "client_id": "176053902228-h1ub190ot7crb3nmos1scqlq1n49e0r6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB1bxFmZ6iTxsGYcpip_lD8ZQxk-96U9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176053902228-h1ub190ot7crb3nmos1scqlq1n49e0r6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

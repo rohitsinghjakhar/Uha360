@@ -1,0 +1,52 @@
+<!-- res/drawable/ic_onboarding_quizzes.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Tablet Base -->
+    <path
+        android:fillColor="@color/light_grey"
+        android:pathData="M30,30 L170,30 L170,170 L30,170 Z"
+        android:strokeColor="@color/medium_grey"
+        android:strokeWidth="2" />
+
+    <!-- Screen -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M40,50 L160,50 L160,160 L40,160 Z" />
+
+    <!-- Question Mark -->
+    <path
+        android:fillColor="@color/purple_blue"
+        android:pathData="M100,70 A15,15 0 1,1 85,85 A15,15 0 0,1 100,70 Z" />
+
+    <path
+        android:fillColor="@color/purple_blue"
+        android:pathData="M100,110 L100,140"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+
+    <!-- Multiple Choice Options -->
+    <path
+        android:fillColor="@color/light_blue"
+        android:pathData="M60,100 L80,100 L80,120 L60,120 Z" />
+
+    <path
+        android:fillColor="@color/medium_blue"
+        android:pathData="M60,130 L80,130 L80,150 L60,150 Z" />
+
+    <path
+        android:fillColor="@color/bright_blue"
+        android:pathData="M120,100 L140,100 L140,120 L120,120 Z" />
+
+    <path
+        android:fillColor="@color/purple_blue"
+        android:pathData="M120,130 L140,130 L140,150 L120,150 Z" />
+
+    <!-- Home Button -->
+    <path
+        android:fillColor="@color/medium_grey"
+        android:pathData="M85,175 L115,175 A5,5 0 0,1 120,180 L80,180 A5,5 0 0,1 85,175 Z" />
+</vector>

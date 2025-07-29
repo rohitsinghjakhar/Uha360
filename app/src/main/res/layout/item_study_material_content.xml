@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contentCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:strokeColor="@color/light_grey"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/contentThumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:background="@color/light_grey"
+            tools:src="@drawable/ic_placeholder"/>
+
+        <TextView
+            android:id="@+id/contentTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:text="Sample Title"/>
+
+        <TextView
+            android:id="@+id/contentDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="14sp"
+            android:textColor="@color/dark_grey"
+            android:maxLines="2"
+            android:ellipsize="end"
+            tools:text="This is a sample description that might be longer than one line"/>
+
+        <TextView
+            android:id="@+id/contentSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="4dp"
+            android:background="@drawable/bg_subject_chip"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            tools:text="Physics"/>
+
+        <TextView
+            android:id="@+id/emptyState"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="No content available"
+            android:textSize="18sp"
+            android:textColor="@color/dark_grey"
+            android:visibility="gone"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

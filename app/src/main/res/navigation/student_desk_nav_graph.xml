@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/student_desk_nav_graph"
+    app:startDestination="@id/boardsListFragment">
+
+    <fragment
+        android:id="@+id/boardsListFragment"
+        android:name="com.dawnbellsuha.uha.fragments.BoardsListFragment"
+        android:label="Select Board"
+        tools:layout="@layout/fragment_boards_list">
+        <action
+            android:id="@+id/action_boardsListFragment_to_classesListFragment"
+            app:destination="@id/classesListFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/classesListFragment"
+        android:name="com.dawnbellsuha.uha.fragments.ClassesListFragment"
+        android:label="Select Class"
+        tools:layout="@layout/fragment_classes_list">
+        <argument
+            android:name="boardId"
+            app:argType="string" />
+        <argument
+            android:name="boardName"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_classesListFragment_to_subjectsListFragment"
+            app:destination="@id/subjectsListFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/subjectsListFragment"
+        android:name="com.dawnbellsuha.uha.fragments.SubjectsListFragment"
+        android:label="Select Subject"
+        tools:layout="@layout/fragment_subjects_list">
+        <argument
+            android:name="classId"
+            app:argType="string" />
+        <argument
+            android:name="className"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_subjectsListFragment_to_contentTabsFragment"
+            app:destination="@id/contentTabsFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/contentTabsFragment"
+        android:name="com.dawnbellsuha.uha.fragments.ContentTabsFragment"
+        android:label="Content"
+        tools:layout="@layout/fragment_content_tabs">
+        <argument
+            android:name="subjectId"
+            app:argType="string" />
+        <argument
+            android:name="subjectName"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

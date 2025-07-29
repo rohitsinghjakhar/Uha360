@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dawnbellsuha.uha">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UhaUltimateHomeOfAcademia"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name="com.dawnbellsuha.uha.studentdesk.StudentDeskActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dawnbellsuha.uha.registration.EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dawnbellsuha.uha.teacher.RegistrationFormActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dawnbellsuha.uha.learnwithai.LearnWithAIActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dawnbellsuha.uha.teacher.TeacherHotlineActivity"
+            android:exported="false"
+            android:theme="@style/Theme.UHA.NoActionBar" />
+        <activity
+            android:name="com.dawnbellsuha.uha.activities.QuizzesActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dawnbellsuha.uha.activities.CareerToolsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dawnbellsuha.uha.activities.CompetewithAiActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dawnbellsuha.uha.activities.AptitudeTestActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dawnbellsuha.uha.activities.ResourcesActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dawnbellsuha.uha.registration.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dawnbellsuha.uha.registration.PhoneAuthActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dawnbellsuha.uha.registration.LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.UhaUltimateHomeOfAcademia" />
+        <activity
+            android:name="com.dawnbellsuha.uha.registration.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dawnbellsuha.uha.activities.LeaderboardActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dawnbellsuha.uha.activities.RemindersActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dawnbellsuha.uha.activities.CalendarActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dawnbellsuha.uha.activities.DoubtSolvingActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dawnbellsuha.uha.activities.LiveChatActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dawnbellsuha.uha.activities.MindMapsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dawnbellsuha.uha.activities.NotesActivity"
+            android:exported="false"
+            android:theme="@style/Theme.UhaUltimateHomeOfAcademia" />
+        <activity
+            android:name="com.dawnbellsuha.uha.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dawnbellsuha.uha.activities.OnboardingActivity"
+            android:exported="false"
+            android:theme="@style/Theme.UhaUltimateHomeOfAcademia" />
+        <activity
+            android:name="com.dawnbellsuha.uha.activities.AuthActivity"
+            android:exported="false"
+            android:theme="@style/Theme.UhaUltimateHomeOfAcademia" />
+        <activity
+            android:name="com.dawnbellsuha.uha.activities.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.UHA.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+    </application>
+
+</manifest>

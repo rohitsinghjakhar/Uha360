@@ -1,0 +1,60 @@
+<!-- res/drawable/ic_onboarding_live.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Video Screen -->
+    <path
+        android:fillColor="@color/dark_grey"
+        android:pathData="M30,30 L170,30 L170,170 L30,170 Z" />
+
+    <!-- Video Content -->
+    <path
+        android:fillColor="#263238"
+        android:pathData="M40,40 L160,40 L160,160 L40,160 Z" />
+
+    <!-- Play Button -->
+    <path
+        android:fillColor="@color/light_blue"
+        android:pathData="M85,80 L125,110 L85,140 Z" />
+
+    <!-- Sound Waves -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M40,180 L50,170 M60,180 L70,165 M80,180 L90,160 M100,180 L110,165 M120,180 L130,170"
+        android:strokeColor="@color/medium_blue"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+
+    <!-- Participants -->
+    <path
+        android:fillColor="@color/bright_blue"
+        android:pathData="M50,50 A10,10 0 1,1 50,70 A10,10 0 0,1 50,50 Z" />
+
+    <path
+        android:fillColor="@color/light_blue"
+        android:pathData="M80,50 A10,10 0 1,1 80,70 A10,10 0 0,1 80,50 Z" />
+
+    <path
+        android:fillColor="@color/purple_blue"
+        android:pathData="M110,50 A10,10 0 1,1 110,70 A10,10 0 0,1 110,50 Z" />
+
+    <path
+        android:fillColor="@color/medium_blue"
+        android:pathData="M140,50 A10,10 0 1,1 140,70 A10,10 0 0,1 140,50 Z" />
+
+    <!-- Connection Dots -->
+    <path
+        android:fillColor="@color/light_grey"
+        android:pathData="M60,80 A3,3 0 1,1 60,86 A3,3 0 0,1 60,80 Z" />
+
+    <path
+        android:fillColor="@color/light_grey"
+        android:pathData="M90,80 A3,3 0 1,1 90,86 A3,3 0 0,1 90,80 Z" />
+
+    <path
+        android:fillColor="@color/light_grey"
+        android:pathData="M120,80 A3,3 0 1,1 120,86 A3,3 0 0,1 120,80 Z" />
+</vector>

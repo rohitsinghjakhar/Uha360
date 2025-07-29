@@ -1,0 +1,49 @@
+<!-- res/drawable/ic_onboarding_notes.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Notebook Base -->
+    <path
+        android:fillColor="@color/light_grey"
+        android:pathData="M40,20 L160,20 L160,180 L40,180 Z" />
+
+    <!-- Notebook Cover -->
+    <path
+        android:fillColor="@color/medium_blue"
+        android:pathData="M40,20 L160,20 L160,50 L40,50 Z" />
+
+    <!-- Spiral Binding -->
+    <path
+        android:fillColor="@color/medium_grey"
+        android:pathData="M40,20 L40,180"
+        android:strokeWidth="8"
+        android:strokeLineCap="round" />
+
+    <!-- Lines on Page -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M60,70 L140,70 M60,90 L140,90 M60,110 L140,110 M60,130 L140,130 M60,150 L140,150"
+        android:strokeColor="@color/dark_grey"
+        android:strokeWidth="1.5" />
+
+    <!-- Pencil -->
+    <path
+        android:fillColor="@color/bright_blue"
+        android:pathData="M120,40 L135,55 L125,65 L110,50 Z" />
+
+    <!-- Pencil Tip -->
+    <path
+        android:fillColor="@color/light_blue"
+        android:pathData="M110,50 L100,40 L125,65 Z" />
+
+    <!-- Checkmark -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M70,80 L85,95 L105,75"
+        android:strokeColor="@color/light_blue"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+</vector>

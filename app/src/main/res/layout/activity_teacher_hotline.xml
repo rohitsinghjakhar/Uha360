@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_background"
+    android:fillViewport="true"
+    tools:context=".teacher.TeacherHotlineActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <!-- Header Section -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/hotline_header_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@color/teacher_gradient_start"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="24dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginBottom="16dp"
+                    android:src="@drawable/ic_teacher_hotline"
+                    app:tint="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Teacher Hotline"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/kalam_bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Book a session with our expert teachers"
+                    android:textSize="16sp"
+                    android:textColor="@color/light_text"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/kalam_regular" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Booking Form Card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/hotline_form_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="12dp"
+            app:cardBackgroundColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@id/hotline_header_card"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <!-- Student Name -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_student_name"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:hint="Student Name *"
+                    app:boxStrokeColor="@color/teacher_accent"
+                    app:hintTextColor="@color/teacher_accent"
+                    app:startIconDrawable="@drawable/ic_student"
+                    app:startIconTint="@color/teacher_accent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_student_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/text_primary"
+                        android:fontFamily="@font/kalam_regular" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Parent/Guardian Name -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_parent_name"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:hint="Parent/Guardian Name *"
+                    app:boxStrokeColor="@color/teacher_accent"
+                    app:hintTextColor="@color/teacher_accent"
+                    app:startIconDrawable="@drawable/ic_parent"
+                    app:startIconTint="@color/teacher_accent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_parent_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/text_primary"
+                        android:fontFamily="@font/kalam_regular" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Contact Number -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_contact_number"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:hint="Contact Number *"
+                    app:boxStrokeColor="@color/teacher_accent"
+                    app:hintTextColor="@color/teacher_accent"
+                    app:startIconDrawable="@drawable/ic_phone"
+                    app:startIconTint="@color/teacher_accent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_contact_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="phone"
+                        android:textColor="@color/text_primary"
+                        android:fontFamily="@font/kalam_regular" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Email Address -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_contact_email"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:hint="Email Address"
+                    app:boxStrokeColor="@color/teacher_accent"
+                    app:hintTextColor="@color/teacher_accent"
+                    app:startIconDrawable="@drawable/ic_email"
+                    app:startIconTint="@color/teacher_accent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_contact_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/text_primary"
+                        android:fontFamily="@font/kalam_regular" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Student Grade/Class -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Student Grade/Class *"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_primary"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/kalam_bold" />
+
+                <Spinner
+                    android:id="@+id/spinner_grade"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/spinner_background"
+                    android:padding="16dp"
+                    android:popupBackground="@color/white" />
+
+                <!-- Subject of Interest -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Subject of Interest *"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_primary"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/kalam_bold" />
+
+                <Spinner
+                    android:id="@+id/spinner_subject"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/spinner_background"
+                    android:padding="16dp"
+                    android:popupBackground="@color/white" />
+
+                <!-- Preferred Session Type -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Preferred Session Type *"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_primary"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/kalam_bold" />
+
+                <Spinner
+                    android:id="@+id/spinner_session_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/spinner_background"
+                    android:padding="16dp"
+                    android:popupBackground="@color/white" />
+
+                <!-- Preferred Time -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_preferred_time"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:hint="Preferred Date and Time"
+                    app:boxStrokeColor="@color/teacher_accent"
+                    app:hintTextColor="@color/teacher_accent"
+                    app:startIconDrawable="@drawable/ic_calendar"
+                    app:startIconTint="@color/teacher_accent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_preferred_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:textColor="@color/text_primary"
+                        android:fontFamily="@font/kalam_regular"
+                        android:focusable="false"
+                        android:clickable="true" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Specific Learning Goals -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_learning_goals"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:hint="Specific Learning Goals/Topics"
+                    app:boxStrokeColor="@color/teacher_accent"
+                    app:hintTextColor="@color/teacher_accent"
+                    app:startIconDrawable="@drawable/ic_target"
+                    app:startIconTint="@color/teacher_accent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_learning_goals"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:inputType="textMultiLine"
+                        android:gravity="top|start"
+                        android:textColor="@color/text_primary"
+                        android:fontFamily="@font/kalam_regular" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Additional Notes -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_additional_notes"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:hint="Additional Notes/Requirements"
+                    app:boxStrokeColor="@color/teacher_accent"
+                    app:hintTextColor="@color/teacher_accent"
+                    app:startIconDrawable="@drawable/ic_notes"
+                    app:startIconTint="@color/teacher_accent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_additional_notes"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:inputType="textMultiLine"
+                        android:gravity="top|start"
+                        android:textColor="@color/text_primary"
+                        android:fontFamily="@font/kalam_regular" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Submit Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_book_session"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="Book Session"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/kalam_bold"
+                    app:backgroundTint="@color/teacher_gradient_start"
+                    app:cornerRadius="28dp"
+                    app:elevation="8dp"
+                    android:textColor="@color/white"
+                    app:icon="@drawable/ic_book_session"
+                    app:iconGravity="textStart"
+                    app:iconTint="@color/white" />
+
+                <!-- Loading Indicator -->
+                <ProgressBar
+                    android:id="@+id/progress_bar_hotline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:visibility="gone"
+                    android:indeterminateTint="@color/teacher_gradient_start" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

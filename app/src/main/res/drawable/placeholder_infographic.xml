@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="200dp"
+    android:viewportWidth="400"
+    android:viewportHeight="200">
+
+    <!-- Background -->
+    <path
+        android:pathData="M0,0 L400,0 L400,200 L0,200 Z"
+        android:fillColor="@color/background_primary"/>
+
+    <!-- Book icon -->
+    <path
+        android:pathData="M150,60 L250,60 L250,140 L150,140 Z"
+        android:fillColor="@color/primary_blue"
+        android:fillAlpha="0.3"/>
+
+    <!-- Text placeholder lines -->
+    <path
+        android:pathData="M160,80 L240,80"
+        android:strokeColor="@color/primary_blue"
+        android:strokeWidth="2"/>
+    <path
+        android:pathData="M160,100 L220,100"
+        android:strokeColor="@color/primary_blue"
+        android:strokeWidth="2"/>
+    <path
+        android:pathData="M160,120 L230,120"
+        android:strokeColor="@color/primary_blue"
+        android:strokeWidth="2"/>
+</vector>

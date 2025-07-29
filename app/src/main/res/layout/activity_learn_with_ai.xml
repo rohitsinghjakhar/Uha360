@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_background"
+    android:fillViewport="true"
+    tools:context=".learnwithai.LearnWithAIActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <!-- Header Section -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ai_header_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@color/ai_gradient_start"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="24dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="16dp"
+                    android:src="@drawable/ic_ai_brain"
+                    app:tint="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Know Our UHA AI"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/kalam_bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Discover the power of AI-driven learning with UHA"
+                    android:textSize="16sp"
+                    android:textColor="@color/light_text"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/kalam_regular" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- AI Information Form Card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ai_form_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="12dp"
+            app:cardBackgroundColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@id/ai_header_card"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <!-- Name -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_ai_name"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:hint="Your Name *"
+                    app:boxStrokeColor="@color/ai_accent"
+                    app:hintTextColor="@color/ai_accent"
+                    app:startIconDrawable="@drawable/ic_person"
+                    app:startIconTint="@color/ai_accent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_ai_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/text_primary"
+                        android:fontFamily="@font/kalam_regular" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Email -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_ai_email"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:hint="Email Address *"
+                    app:boxStrokeColor="@color/ai_accent"
+                    app:hintTextColor="@color/ai_accent"
+                    app:startIconDrawable="@drawable/ic_email"
+                    app:startIconTint="@color/ai_accent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_ai_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/text_primary"
+                        android:fontFamily="@font/kalam_regular" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Phone -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_ai_phone"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:hint="Phone Number"
+                    app:boxStrokeColor="@color/ai_accent"
+                    app:hintTextColor="@color/ai_accent"
+                    app:startIconDrawable="@drawable/ic_phone"
+                    app:startIconTint="@color/ai_accent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_ai_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="phone"
+                        android:textColor="@color/text_primary"
+                        android:fontFamily="@font/kalam_regular" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Age Group -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Age Group *"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_primary"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/kalam_bold"
+                    android:drawableStart="@drawable/ic_age"
+                    android:drawablePadding="8dp"
+                    android:drawableTint="@color/ai_accent" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="2dp"
+                    app:cardBackgroundColor="@color/input_background">
+
+                    <Spinner
+                        android:id="@+id/spinner_age_group"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:padding="16dp"
+                        android:popupBackground="@color/white" />
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- Interest Level -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Interest Level *"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_primary"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/kalam_bold"
+                    android:drawableStart="@drawable/ic_interest"
+                    android:drawablePadding="8dp"
+                    android:drawableTint="@color/ai_accent" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="2dp"
+                    app:cardBackgroundColor="@color/input_background">
+
+                    <Spinner
+                        android:id="@+id/spinner_interest_level"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:padding="16dp"
+                        android:popupBackground="@color/white" />
+
+                </androidx.cardview.widget.CardView>
+
+                <!-- Educational Background -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_education_background"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:hint="Educational Background"
+                    app:boxStrokeColor="@color/ai_accent"
+                    app:hintTextColor="@color/ai_accent"
+                    app:startIconDrawable="@drawable/ic_education"
+                    app:startIconTint="@color/ai_accent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_education_background"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:textColor="@color/text_primary"
+                        android:fontFamily="@font/kalam_regular" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Specific AI Features Interest -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_ai_features"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:hint="Which AI features interest you most?"
+                    app:boxStrokeColor="@color/ai_accent"
+                    app:hintTextColor="@color/ai_accent"
+                    app:startIconDrawable="@drawable/ic_settings"
+                    app:startIconTint="@color/ai_accent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_ai_features"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:inputType="textMultiLine"
+                        android:gravity="top|start"
+                        android:textColor="@color/text_primary"
+                        android:fontFamily="@font/kalam_regular" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Learning Goals -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_learning_goals"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:hint="What are your learning goals with AI?"
+                    app:boxStrokeColor="@color/ai_accent"
+                    app:hintTextColor="@color/ai_accent"
+                    app:startIconDrawable="@drawable/ic_target"
+                    app:startIconTint="@color/ai_accent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_learning_goals"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:inputType="textMultiLine"
+                        android:gravity="top|start"
+                        android:textColor="@color/text_primary"
+                        android:fontFamily="@font/kalam_regular" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Use Case -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_use_case"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:hint="How do you plan to use UHA AI?"
+                    app:boxStrokeColor="@color/ai_accent"
+                    app:hintTextColor="@color/ai_accent"
+                    app:startIconDrawable="@drawable/ic_lightbulb"
+                    app:startIconTint="@color/ai_accent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_use_case"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:inputType="textMultiLine"
+                        android:gravity="top|start"
+                        android:textColor="@color/text_primary"
+                        android:fontFamily="@font/kalam_regular" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Current AI Experience -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_ai_experience"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:hint="Current experience with AI tools"
+                    app:boxStrokeColor="@color/ai_accent"
+                    app:hintTextColor="@color/ai_accent"
+                    app:startIconDrawable="@drawable/ic_experience"
+                    app:startIconTint="@color/ai_accent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_ai_experience"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:inputType="textMultiLine"
+                        android:gravity="top|start"
+                        android:textColor="@color/text_primary"
+                        android:fontFamily="@font/kalam_regular" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Additional Questions -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_questions"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:hint="Any specific questions about UHA AI?"
+                    app:boxStrokeColor="@color/ai_accent"
+                    app:hintTextColor="@color/ai_accent"
+                    app:startIconDrawable="@drawable/ic_help"
+                    app:startIconTint="@color/ai_accent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_questions"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:inputType="textMultiLine"
+                        android:gravity="top|start"
+                        android:textColor="@color/text_primary"
+                        android:fontFamily="@font/kalam_regular" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Submit Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_submit_ai_inquiry"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="Learn About UHA AI"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/kalam_bold"
+                    app:backgroundTint="@color/ai_gradient_start"
+                    app:cornerRadius="28dp"
+                    app:elevation="8dp"
+                    android:textColor="@color/white"
+                    app:icon="@drawable/ic_ai_brain"
+                    app:iconGravity="textStart"
+                    app:iconTint="@color/white" />
+
+                <!-- Loading Indicator -->
+                <ProgressBar
+                    android:id="@+id/progress_bar_ai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:visibility="gone"
+                    android:indeterminateTint="@color/ai_gradient_start" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
