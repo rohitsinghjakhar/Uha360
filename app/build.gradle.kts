@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace = "com.dawnbellsuha.uha"
+    namespace = "com.uhadawnbells.uha"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.dawnbellsuha.uha"
+        applicationId = "com.uhadawnbells.uha"
         minSdk = 24
         targetSdk = 35 // Matched with compileSdk
         versionCode = 1
@@ -68,6 +68,7 @@ dependencies {
     implementation(libs.googleid)
     implementation(libs.firebase.auth)
     implementation(libs.firebase.firestore)
+    implementation(libs.androidx.activity)
 
     // Testing
     testImplementation(libs.junit)
@@ -117,7 +118,16 @@ dependencies {
     implementation(libs.androidx.cardview)
     implementation(libs.androidx.recyclerview)
     implementation(libs.androidx.swiperefreshlayout)
-
     implementation(libs.play.services.base.v1830)
 
+    // Web view
+    implementation(libs.androidx.webkit)
+
+    // video player
+    implementation(libs.exoplayer)
+    implementation(libs.exoplayer.core)
+    implementation(libs.exoplayer.ui)
+
+    implementation(libs.androidx.work.runtime.ktx)
+    implementation(libs.gson)
 }

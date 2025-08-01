@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.dawnbellsuha.uha.views.GradientView
+        <com.uhadawnbells.uha.views.GradientView
             android:id="@+id/classGradientBackground"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>

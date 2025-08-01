@@ -58,7 +58,7 @@
 # ----------------------------------
 
 # Keep all classes that might be accessed via reflection
--keep public class com.dawnbellsuha.uha.** { *; }
+-keep public class com.uhadawnbells.uha.** { *; }
 
 # Keep View bindings
 -keep class * extends android.view.View {

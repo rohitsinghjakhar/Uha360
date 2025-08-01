@@ -24,28 +24,36 @@
             android:title="@string/help_support" />
     </group>
 
-    <item android:title="@string/connect_with_us">
+    <item
+        android:title="@string/connect_with_us">
         <menu>
             <item
                 android:id="@+id/nav_instagram"
                 android:icon="@drawable/ic_instagram"
+                app:showAsAction="always"
                 app:itemIconTint="@null"
-            android:title="@string/instagram" />
+                android:title="@string/instagram" />
+
             <item
                 android:id="@+id/nav_facebook"
                 android:icon="@drawable/ic_facebook"
+                app:showAsAction="always"
                 app:itemIconTint="@null"
-            android:title="@string/facebook" />
+                android:title="@string/facebook" />
+
             <item
                 android:id="@+id/nav_linkedin"
                 android:icon="@drawable/ic_linkedin"
+                app:showAsAction="always"
                 app:itemIconTint="@null"
-            android:title="@string/linkedn" />
+                android:title="@string/linkedn" />
+
             <item
                 android:id="@+id/nav_youtube"
                 android:icon="@drawable/ic_youtube"
+                app:showAsAction="always"
                 app:itemIconTint="@null"
-            android:title="@string/youtube" />
-        </menu>
-    </item>
+                android:title="@string/youtube" />
+        </menu>    </item>
+
 </menu>

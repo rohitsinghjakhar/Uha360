@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/boardsListFragment"
-        android:name="com.dawnbellsuha.uha.fragments.BoardsListFragment"
+        android:name="com.uhadawnbells.uha.fragments.BoardsListFragment"
         android:label="Select Board"
         tools:layout="@layout/fragment_boards_list">
         <action
@@ -21,7 +21,7 @@
 
     <fragment
         android:id="@+id/classesListFragment"
-        android:name="com.dawnbellsuha.uha.fragments.ClassesListFragment"
+        android:name="com.uhadawnbells.uha.fragments.ClassesListFragment"
         android:label="Select Class"
         tools:layout="@layout/fragment_classes_list">
         <argument
@@ -41,7 +41,7 @@
 
     <fragment
         android:id="@+id/subjectsListFragment"
-        android:name="com.dawnbellsuha.uha.fragments.SubjectsListFragment"
+        android:name="com.uhadawnbells.uha.fragments.SubjectsListFragment"
         android:label="Select Subject"
         tools:layout="@layout/fragment_subjects_list">
         <argument
@@ -61,7 +61,7 @@
 
     <fragment
         android:id="@+id/contentTabsFragment"
-        android:name="com.dawnbellsuha.uha.fragments.ContentTabsFragment"
+        android:name="com.uhadawnbells.uha.fragments.ContentTabsFragment"
         android:label="Content"
         tools:layout="@layout/fragment_content_tabs">
         <argument

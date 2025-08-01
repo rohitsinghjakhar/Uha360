@@ -371,5 +371,42 @@
         <item name="strokeColor">@color/banner_border</item>
     </style>
 
+
+    <!-- Default content strings -->
+    <string name="default_career_guidance">भारत में करियर के अनंत अवसर हैं! IIT-JEE, NEET, UPSC से लेकर डिजिटल इंडिया तक - हर क्षेत्र में सफलता के मार्ग खुले हैं।\nIndia offers endless career opportunities! From IIT-JEE, NEET, UPSC to Digital India - paths to success are open in every field.</string>
+
+    <string name="default_history_content">भारत का गौरवशाली इतिहास हजारों वर्षों का है। सिंधु घाटी सभ्यता से लेकर आधुनिक भारत तक, हमारे पूर्वजों ने विज्ञान, कला, दर्शन और संस्कृति में अमूल्य योगदान दिया है।\nIndia has a glorious history spanning thousands of years. From the Indus Valley Civilization to modern India, our ancestors have made invaluable contributions to science, art, philosophy, and culture.</string>
+
+    <string name="default_history_year">मुख्य काल: प्राचीन से आधुनिक | Main Era: Ancient to Modern</string>
+
+    <string name="default_event_title">भारतीय शिक्षा दिवस | Indian Education Day</string>
+
+    <string name="default_event_description">भारत की समृद्ध शिक्षा परंपरा का सम्मान करें। गुरुकुल से आधुनिक विश्वविद्यालय तक, भारत में शिक्षा हमेशा सर्वोपरि रही है।\nHonor India\'s rich education tradition. From Gurukuls to modern universities, education has always been paramount in India.</string>
+
+    <string name="fact_zero_discovery">क्या आप जानते हैं? शून्य (0) की अवधारणा भारत में आर्यभट्ट द्वारा विकसित की गई थी।\nDid you know? The concept of zero (0) was developed in India by Aryabhata.</string>
+
+    <string name="fact_chandrayaan">क्या आप जानते हैं? चंद्रमा पर पानी की खोज भारत के चंद्रयान-1 मिशन ने की थी।\nDid you know? Water on the moon was discovered by India\'s Chandrayaan-1 mission.</string>
+
+    <string name="fact_yoga">क्या आप जानते हैं? योग का जन्म भारत में 5000 साल पहले हुआ था और आज दुनियाभर में प्रसिद्ध है।\nDid you know? Yoga originated in India 5000 years ago and is now famous worldwide.</string>
+
+    <string name="fact_post_office">क्या आप जानते हैं? भारत दुनिया का सबसे बड़ा डाकघर नेटवर्क रखता है - 1,55,000+ डाकघर!\nDid you know? India has the world\'s largest postal network with over 155,000 post offices!</string>
+
+    <string name="default_visual_title">भारतीय शिक्षा की परंपरा | Indian Education Tradition</string>
+
+    <string name="default_visual_description">प्राचीन गुरुकुल से आधुनिक विश्वविद्यालय तक भारतीय शिक्षा का सफर\nJourney of Indian education from ancient Gurukuls to modern universities</string>
+
+    <string name="default_quote_content">सर्वे भवन्तु सुखिनः सर्वे सन्तु निरामयाः।\nMay all be happy, may all be free from illness.</string>
+
+    <string name="default_quote_author">प्राचीन भारतीय मंत्र | Ancient Indian Mantra</string>
+
+    <string name="default_quote_designation">संस्कृत श्लोक | Sanskrit Shloka</string>
+
+    <!-- UI strings -->
+    <string name="featured_year">मुख्य वर्ष: %s | Featured Year: %s</string>
+    <string name="content_updating">सामग्री अपडेट हो रही है... | Content is updating...</string>
+    <string name="shared_from_app">भारतीय शिक्षा ऐप UHA से साझा किया गया | Shared from UHA Indian Education App</string>
+    <string name="share_via">इसे साझा करें | Share via</string>
+    <string name="did_you_know_prefix">क्या आप जानते हैं? | Did you know?</string>
+    <string name="today_in_history_prefix">आज के दिन इतिहास में: | Today in history:</string>
 </resources>
 

@@ -276,6 +276,7 @@
     <color name="category_biology">#FF9800</color>
     <color name="quote_accent">#7958FF</color>
     <color name="image_placeholder_bg">#F0F0F0</color>
+    <color name="video_controls_background">#80000000</color>
 
     <!-- Status Colors -->
     <color name="success">#4CAF50</color>

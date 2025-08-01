@@ -15,14 +15,14 @@
         android:layout_height="72dp"
         android:contentDescription="@string/nav_header_desc"
         android:padding="2dp"
-        android:src="@drawable/ic_profile" />
+        android:src="@drawable/ic_uha_logo" />
 
     <TextView
         android:id="@+id/tvUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Uha User"
+        android:text="Uha"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/white" />
 
@@ -30,7 +30,7 @@
         android:id="@+id/tvEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="uha@gmail.com"
+        android:text="Ultimate Home of Academia"
         android:textAppearance="@style/TextAppearance.AppCompat.Caption"
         android:textColor="@color/white" />
 
